@@ -1,0 +1,40 @@
+.font {
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+}
+
+#right_title {
+    margin-left: 3%;
+}
+
+#title2 {
+    margin-left: 3%;
+    margin-top: 5px;
+}
+
+#div {
+    margin-left: 1%;
+}
+
+html { overflow:  hidden; }
+
+body {
+    /* background: linear-gradient(to top, #0d239c 0%, #95a3f5 100%); */
+    background: url(wolf_bg.jpeg); 
+    background-size: cover;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+} 
+
+.text {
+    width: 35%;
+    padding: 5px; /* Поля вокруг текста */
+}
+
+.footer {
+    text-align: center;
+    color: rgba(28, 139, 224, 0.34);
+    font-size: 250%;
+}
